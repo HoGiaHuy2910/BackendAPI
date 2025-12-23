@@ -1,0 +1,557 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\controllers\\ptassignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\ptassignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\membershipplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\membershipplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\controllers\\userschedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\userschedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\userschedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\userschedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\classdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\classdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\controllers\\challengecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\challengecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\challengeparticipantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\challengeparticipantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\challengeparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\challengeparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\challenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\challenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\controllers\\schedulecontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\schedulecontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\controllers\\userprogresshistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\userprogresshistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\backendapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\backendapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\revenueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\revenueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\controllers\\revenuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\revenuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\controllers\\dailyrevenueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\dailyrevenueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\controllers\\ptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\ptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\userprogresshistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\userprogresshistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\models\\userprogresshistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\models\\userprogresshistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|c:\\users\\asus\\source\\repos\\backendapi\\backendapi\\backendapi\\backendapi\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0DD579-5666-4588-887F-3ECDD4C43A55}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PTAssignmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\PTAssignmentsController.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\PTAssignmentsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\PTAssignmentsController.cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\PTAssignmentsController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwDAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T01:08:08.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MembershipPlan.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\MembershipPlan.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\MembershipPlan.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\MembershipPlan.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\MembershipPlan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T01:03:55.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BackendAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BackendAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-13T20:06:22.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Challenge.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\Challenge.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\Challenge.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\Challenge.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\Challenge.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T14:51:25.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChallengeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\ChallengeController.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\ChallengeController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\ChallengeController.cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\ChallengeController.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAAACwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T13:57:19.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "BackendAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\appsettings.json",
+              "RelativeToolTip": "BackendAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-12T13:43:15.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\Transaction.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T12:21:15.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAswBkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T12:21:23.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserScheduleController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\UserScheduleController.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\UserScheduleController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\UserScheduleController.cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\UserScheduleController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T20:36:32.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClassDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\ClassDetailDto.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\ClassDetailDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\ClassDetailDto.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\ClassDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:03:34.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClassController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\ClassController.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\ClassController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\ClassController.cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\ClassController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T16:38:53.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserSchedules.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\UserSchedules.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\UserSchedules.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\UserSchedules.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\UserSchedules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:47:56.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\AttendanceController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAIAwwJIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:10:22.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\Class.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\Class.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T16:38:42.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChallengeParticipantDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\ChallengeParticipantDto.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\ChallengeParticipantDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\ChallengeParticipantDto.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\ChallengeParticipantDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:11:38.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChallengeParticipant.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\ChallengeParticipant.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\ChallengeParticipant.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\ChallengeParticipant.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\ChallengeParticipant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T13:56:11.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T12:51:04.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\Schedule.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\Schedule.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\Schedule.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\Schedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T09:41:50.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ScheduleController .cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\ScheduleController .cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\ScheduleController .cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\ScheduleController .cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\ScheduleController .cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAAwJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T08:46:56.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RevenueViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\RevenueViewModel.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\RevenueViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\RevenueViewModel.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\RevenueViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:31:43.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DailyRevenueViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\DailyRevenueViewModel.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\DailyRevenueViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\DailyRevenueViewModel.cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\DailyRevenueViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:59:18.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RevenueController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\RevenueController.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\RevenueController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\RevenueController.cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\RevenueController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T16:06:08.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BackendAPI.http",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI.http",
+              "RelativeDocumentMoniker": "BackendAPI\\BackendAPI.http",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI.http",
+              "RelativeToolTip": "BackendAPI\\BackendAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-12T16:06:18.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserProgressHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\UserProgressHistoryController.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\UserProgressHistoryController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\UserProgressHistoryController.cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\UserProgressHistoryController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAiwHAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T11:15:02.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "BackendAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T12:35:53.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TransactionDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\TransactionDto.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\TransactionDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\TransactionDto.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\TransactionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T12:28:55.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\Payment.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T13:33:23.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\Registration.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\Registration.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\Registration.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\Registration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T15:23:23.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T13:33:29.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PTController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\PTController.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\PTController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\PTController.cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\PTController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:27:21.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserProgressHistoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\UserProgressHistoryDto.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\UserProgressHistoryDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\UserProgressHistoryDto.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\UserProgressHistoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T11:32:38.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserProgressHistory.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\UserProgressHistory.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Models\\UserProgressHistory.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Models\\UserProgressHistory.cs",
+              "RelativeToolTip": "BackendAPI\\Models\\UserProgressHistory.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvyEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T11:32:39.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\RegistrationController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\BackendAPI\\BackendAPI\\BackendAPI\\BackendAPI\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\RegistrationController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwHwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T15:22:33.99Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

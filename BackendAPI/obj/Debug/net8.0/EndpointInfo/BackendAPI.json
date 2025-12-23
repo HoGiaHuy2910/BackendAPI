@@ -1,0 +1,4907 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "BackendAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Attendance": {
+      "get": {
+        "tags": [
+          "Attendance"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Attendance"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Attendance"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Attendance"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Attendance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Attendance"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Attendance"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Attendance"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Attendance"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Attendance"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Attendance"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Attendance/{id}": {
+      "get": {
+        "tags": [
+          "Attendance"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Attendance"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Attendance"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Attendance"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Attendance"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Attendance"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Attendance"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Attendance"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Attendance"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Attendance/userschedule/{userScheduleId}": {
+      "get": {
+        "tags": [
+          "Attendance"
+        ],
+        "parameters": [
+          {
+            "name": "userScheduleId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Attendance"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Attendance"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Attendance"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Attendance/user/{userId}": {
+      "get": {
+        "tags": [
+          "Attendance"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Attendance"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Attendance"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Attendance"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Attendance/schedule/{scheduleId}/participants": {
+      "get": {
+        "tags": [
+          "Attendance"
+        ],
+        "parameters": [
+          {
+            "name": "scheduleId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ParticipantDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ParticipantDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ParticipantDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Attendance/mark": {
+      "post": {
+        "tags": [
+          "Attendance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MarkAttendanceRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MarkAttendanceRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MarkAttendanceRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Challenge": {
+      "get": {
+        "tags": [
+          "Challenge"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Challenge"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Challenge"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Challenge"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Challenge"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Challenge"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Challenge"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Challenge"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Challenge"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Challenge"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Challenge"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Challenge/{id}": {
+      "get": {
+        "tags": [
+          "Challenge"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Challenge"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Challenge"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Challenge"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Challenge"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Challenge"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Challenge"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Challenge"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Challenge"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Challenge/participants/{challengeId}": {
+      "get": {
+        "tags": [
+          "Challenge"
+        ],
+        "parameters": [
+          {
+            "name": "challengeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Challenge/leaderboard/{challengeId}": {
+      "get": {
+        "tags": [
+          "Challenge"
+        ],
+        "parameters": [
+          {
+            "name": "challengeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Challenge/{challengeId}/join": {
+      "post": {
+        "tags": [
+          "Challenge"
+        ],
+        "parameters": [
+          {
+            "name": "challengeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "userId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Challenge/{challengeId}/progress": {
+      "get": {
+        "tags": [
+          "Challenge"
+        ],
+        "parameters": [
+          {
+            "name": "challengeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "userId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Challenge/{challengeId}/is-joined": {
+      "get": {
+        "tags": [
+          "Challenge"
+        ],
+        "parameters": [
+          {
+            "name": "challengeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "userId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Challenge/participant/{id}/progress": {
+      "put": {
+        "tags": [
+          "Challenge"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Class": {
+      "get": {
+        "tags": [
+          "Class"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Class"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Class"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Class"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Class"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Class"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Class"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Class"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Class/{id}": {
+      "get": {
+        "tags": [
+          "Class"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Class"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Class"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Class"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Class"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Class"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Class/details": {
+      "get": {
+        "tags": [
+          "Class"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClassDetailDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClassDetailDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClassDetailDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Equipment": {
+      "get": {
+        "tags": [
+          "Equipment"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Equipment"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equipment"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equipment"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equipment"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Equipment"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Equipment"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Equipment"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Equipment/{id}": {
+      "get": {
+        "tags": [
+          "Equipment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Equipment"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Equipment"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Equipment"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Equipment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equipment"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equipment"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equipment"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Equipment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Feedback": {
+      "get": {
+        "tags": [
+          "Feedback"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Feedback"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Feedback"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Feedback"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Feedback"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Feedback"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Feedback"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Feedback"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Feedback/{id}": {
+      "get": {
+        "tags": [
+          "Feedback"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Feedback"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Feedback"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Feedback"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Feedback"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Feedback"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Feedback"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Feedback"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Feedback"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Feedback/pt/{ptUserId}": {
+      "get": {
+        "tags": [
+          "Feedback"
+        ],
+        "parameters": [
+          {
+            "name": "ptUserId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MembershipPlan": {
+      "get": {
+        "tags": [
+          "MembershipPlan"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MembershipPlan"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MembershipPlan"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MembershipPlan"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "MembershipPlan"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MembershipPlan"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MembershipPlan"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MembershipPlan"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MembershipPlan"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MembershipPlan"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MembershipPlan"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MembershipPlan/{id}": {
+      "get": {
+        "tags": [
+          "MembershipPlan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MembershipPlan"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MembershipPlan"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MembershipPlan"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "MembershipPlan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MembershipPlan"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MembershipPlan"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MembershipPlan"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "MembershipPlan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Payment": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Payment"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Payment"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Payment"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Payment"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Payment"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Payment"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Payment"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Payment"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Payment"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Payment"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Payment/{id}": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Payment"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Payment"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Payment"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Payment"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Payment"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Payment"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Post": {
+      "get": {
+        "tags": [
+          "Post"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Post/{id}": {
+      "get": {
+        "tags": [
+          "Post"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Post"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Post"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Post"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Post"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "UserId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Title": {
+                    "type": "string"
+                  },
+                  "Content": {
+                    "type": "string"
+                  },
+                  "Images": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  },
+                  "Videos": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  },
+                  "DeletedMediaIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "format": "int32"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "UserId": {
+                  "style": "form"
+                },
+                "Title": {
+                  "style": "form"
+                },
+                "Content": {
+                  "style": "form"
+                },
+                "Images": {
+                  "style": "form"
+                },
+                "Videos": {
+                  "style": "form"
+                },
+                "DeletedMediaIds": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Post"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Post/create": {
+      "post": {
+        "tags": [
+          "Post"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "UserId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Title": {
+                    "type": "string"
+                  },
+                  "Content": {
+                    "type": "string"
+                  },
+                  "Images": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  },
+                  "Videos": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  },
+                  "DeletedMediaIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "format": "int32"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "UserId": {
+                  "style": "form"
+                },
+                "Title": {
+                  "style": "form"
+                },
+                "Content": {
+                  "style": "form"
+                },
+                "Images": {
+                  "style": "form"
+                },
+                "Videos": {
+                  "style": "form"
+                },
+                "DeletedMediaIds": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PT": {
+      "get": {
+        "tags": [
+          "PT"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/PT/{id}": {
+      "get": {
+        "tags": [
+          "PT"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "PT"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTProfile"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTProfile"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTProfile"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "PT"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PT/my-classes-pts/{userId}": {
+      "get": {
+        "tags": [
+          "PT"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/PTAssignments": {
+      "get": {
+        "tags": [
+          "PTAssignments"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "PTAssignments"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTAssignment"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTAssignment"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTAssignment"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTAssignment"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTAssignment"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PTAssignment"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/PTAssignments/{traineeId}": {
+      "get": {
+        "tags": [
+          "PTAssignments"
+        ],
+        "parameters": [
+          {
+            "name": "traineeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/PTAssignments/trainer/{ptUserId}/students": {
+      "get": {
+        "tags": [
+          "PTAssignments"
+        ],
+        "parameters": [
+          {
+            "name": "ptUserId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/PTAssignments/{id}": {
+      "put": {
+        "tags": [
+          "PTAssignments"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTAssignment"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTAssignment"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PTAssignment"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "PTAssignments"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Registration": {
+      "get": {
+        "tags": [
+          "Registration"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Registration"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Registration"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Registration"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Registration"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Registration"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Registration"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Registration"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Registration/User/{userId}": {
+      "get": {
+        "tags": [
+          "Registration"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Registration"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Registration"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Registration"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Registration/{id}": {
+      "get": {
+        "tags": [
+          "Registration"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Registration"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Registration"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Registration"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Registration"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Registration"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Registration"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Registration"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Registration"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Revenue": {
+      "get": {
+        "tags": [
+          "Revenue"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RevenueViewModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RevenueViewModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RevenueViewModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Revenue/filter": {
+      "get": {
+        "tags": [
+          "Revenue"
+        ],
+        "parameters": [
+          {
+            "name": "start",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "end",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RevenueViewModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RevenueViewModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RevenueViewModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Rooms": {
+      "get": {
+        "tags": [
+          "Rooms"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Room"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Room"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Room"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Rooms"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Room"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Room"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Room"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Room"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Room"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Room"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Rooms/{id}": {
+      "get": {
+        "tags": [
+          "Rooms"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Room"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Room"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Room"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Rooms"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Room"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Room"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Room"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Rooms"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Schedule": {
+      "get": {
+        "tags": [
+          "Schedule"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Schedule"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Schedule"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Schedule"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Schedule"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Schedule"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Schedule"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Schedule"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Schedule/{id}": {
+      "get": {
+        "tags": [
+          "Schedule"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Schedule"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Schedule"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Schedule"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Schedule"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Schedule"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Schedule"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Schedule"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Schedule/calendar/user/{userId}": {
+      "get": {
+        "tags": [
+          "Schedule"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserScheduleDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserScheduleDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserScheduleDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Schedule/userschedule/{id}": {
+      "delete": {
+        "tags": [
+          "Schedule"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Schedule/user/{userId}": {
+      "get": {
+        "tags": [
+          "Schedule"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserScheduleDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserScheduleDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserScheduleDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Schedule/pt/{ptUserId}": {
+      "get": {
+        "tags": [
+          "Schedule"
+        ],
+        "parameters": [
+          {
+            "name": "ptUserId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserScheduleDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserScheduleDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserScheduleDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Transaction": {
+      "get": {
+        "tags": [
+          "Transaction"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Transaction"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Transaction"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Transaction"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Transaction"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Transaction"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Transaction"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Transaction"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Transaction"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Transaction"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Transaction"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Transaction/filter": {
+      "get": {
+        "tags": [
+          "Transaction"
+        ],
+        "parameters": [
+          {
+            "name": "from",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Transaction"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Transaction"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Transaction"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Transaction/{id}": {
+      "get": {
+        "tags": [
+          "Transaction"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Transaction"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Transaction"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Transaction"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Transaction"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Transaction"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Transaction"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Transaction"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Transaction"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/User/statistics": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/user/{userId}/plans": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MembershipPlan"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MembershipPlan"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MembershipPlan"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/User/user/{userId}/classes": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Class"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Class"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Class"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/UserProgressHistory/{userId}": {
+      "get": {
+        "tags": [
+          "UserProgressHistory"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserProgressHistory"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserProgressHistory"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserProgressHistory"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/UserProgressHistory": {
+      "get": {
+        "tags": [
+          "UserProgressHistory"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserProgressHistoryDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserProgressHistoryDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserProgressHistoryDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "UserProgressHistory"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProgressHistory"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProgressHistory"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProgressHistory"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/UserProgressHistory/{id}": {
+      "put": {
+        "tags": [
+          "UserProgressHistory"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProgressHistory"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProgressHistory"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProgressHistory"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "UserProgressHistory"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/UserSchedule": {
+      "get": {
+        "tags": [
+          "UserSchedule"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "UserSchedule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserSchedules"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserSchedules"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserSchedules"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserSchedules"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserSchedules"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserSchedules"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/UserSchedule/detailed": {
+      "get": {
+        "tags": [
+          "UserSchedule"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/UserSchedule/{id}": {
+      "delete": {
+        "tags": [
+          "UserSchedule"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Attendance": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userScheduleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "attendanceDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "isPresent": {
+            "type": "boolean"
+          },
+          "userSchedule": {
+            "$ref": "#/components/schemas/UserSchedules"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AttendeeDto": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "present": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Challenge": {
+        "required": [
+          "title"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "description": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "rewardPoints": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Class": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "className": {
+            "type": "string",
+            "nullable": true
+          },
+          "ptUserId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "roomId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maxParticipants": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "room": {
+            "$ref": "#/components/schemas/Room"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ClassDetailDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "className": {
+            "type": "string",
+            "nullable": true
+          },
+          "maxParticipants": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ptUserId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ptName": {
+            "type": "string",
+            "nullable": true
+          },
+          "specialty": {
+            "type": "string",
+            "nullable": true
+          },
+          "experienceYears": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "roomId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "roomName": {
+            "type": "string",
+            "nullable": true
+          },
+          "capacity": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DailyRevenueViewModel": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "count": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Equipment": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "equipmentName": {
+            "type": "string",
+            "nullable": true
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "conditionStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "roomId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "room": {
+            "$ref": "#/components/schemas/Room"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Feedback": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ptUserId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "comment": {
+            "maxLength": 255,
+            "type": "string",
+            "nullable": true
+          },
+          "rating": {
+            "maximum": 5,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          },
+          "ptUser": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MarkAttendanceRequest": {
+        "type": "object",
+        "properties": {
+          "scheduleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "attendanceDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "attendees": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AttendeeDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MembershipPlan": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "planName": {
+            "type": "string",
+            "nullable": true
+          },
+          "durationMonths": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PTAssignment": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ptUserId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "traineeUserId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "assignedDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ptUser": {
+            "$ref": "#/components/schemas/User"
+          },
+          "traineeUser": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PTProfile": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "specialty": {
+            "type": "string",
+            "nullable": true
+          },
+          "experienceYears": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ParticipantDto": {
+        "type": "object",
+        "properties": {
+          "userScheduleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "isPresent": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Payment": {
+        "required": [
+          "amount",
+          "planId",
+          "userId"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "planId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "paymentDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          },
+          "membershipPlan": {
+            "$ref": "#/components/schemas/MembershipPlan"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Post": {
+        "required": [
+          "userId"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "maxLength": 100,
+            "type": "string",
+            "nullable": true
+          },
+          "content": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          },
+          "media": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PostMedia"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PostMedia": {
+        "required": [
+          "mediaType",
+          "postId",
+          "url"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "postId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "url": {
+            "maxLength": 500,
+            "minLength": 1,
+            "type": "string"
+          },
+          "mediaType": {
+            "maxLength": 10,
+            "minLength": 1,
+            "type": "string"
+          },
+          "post": {
+            "$ref": "#/components/schemas/Post"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Registration": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "classId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "planId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          },
+          "class": {
+            "$ref": "#/components/schemas/Class"
+          },
+          "plan": {
+            "$ref": "#/components/schemas/MembershipPlan"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RevenueViewModel": {
+        "type": "object",
+        "properties": {
+          "totalRevenue": {
+            "type": "number",
+            "format": "double"
+          },
+          "revenueToday": {
+            "type": "number",
+            "format": "double"
+          },
+          "revenueThisMonth": {
+            "type": "number",
+            "format": "double"
+          },
+          "dailyRevenues": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DailyRevenueViewModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Room": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "roomName": {
+            "type": "string",
+            "nullable": true
+          },
+          "capacity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Schedule": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "classId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "startTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "endTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "class": {
+            "$ref": "#/components/schemas/Class"
+          },
+          "userSchedules": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UserSchedules"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Transaction": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paymentId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "planName": {
+            "type": "string",
+            "nullable": true
+          },
+          "transactionType": {
+            "maxLength": 50,
+            "type": "string",
+            "nullable": true
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "paymentDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "payment": {
+            "$ref": "#/components/schemas/Payment"
+          }
+        },
+        "additionalProperties": false
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "age": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserProgressHistory": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          },
+          "scheduleId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "schedule": {
+            "$ref": "#/components/schemas/Schedule"
+          },
+          "ptUserId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ptUser": {
+            "$ref": "#/components/schemas/User"
+          },
+          "weight": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "bodyFat": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "muscleMass": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "height": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "waist": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "hip": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "chest": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "note": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserProgressHistoryDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "ptUserId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ptName": {
+            "type": "string",
+            "nullable": true
+          },
+          "scheduleId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "scheduleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "weight": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "bodyFat": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "muscleMass": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "height": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "waist": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "hip": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "chest": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "notes": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserScheduleDto": {
+        "type": "object",
+        "properties": {
+          "userScheduleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "scheduleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "className": {
+            "type": "string",
+            "nullable": true
+          },
+          "startTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "endTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "roomName": {
+            "type": "string",
+            "nullable": true
+          },
+          "ptName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserSchedules": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "scheduleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          },
+          "schedule": {
+            "$ref": "#/components/schemas/Schedule"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
